@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
-import StudentViewCommonHeader from "./Header";
+import StudentViewCommonHeader from "./header";
 import StudentViewCommonFooter from "./footer";
 
 function StudentViewCommonLayout() {
