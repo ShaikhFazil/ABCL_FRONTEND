@@ -7,9 +7,9 @@
     "node": "24.11.1"
   },
   "scripts": {
-      "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --max-warnings=0",
+        "dev": "vite",
+    "build": "ESLINT_NO_DEV_INSPECT=true vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {

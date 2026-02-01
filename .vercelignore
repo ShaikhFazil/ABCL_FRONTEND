@@ -1,3 +1,17 @@
+# Ignore ESLint config files
+eslint.config.js
 .eslintrc.js
 .eslintrc.json
-eslint.config.js
+.eslintignore
+
+# Ignore test files
+**/*.test.js
+**/*.spec.js
+
+# Ignore development files
+.env.local
+.env.development
+.env.test
+
+# Optional: Ignore linting output
+eslint-output.log
