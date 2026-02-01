@@ -1,7 +1,8 @@
 {
-  "buildCommand": "./vercel-build.sh",
+  "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "installCommand": "npm install",
+  "installCommand": "npm install --legacy-peer-deps",
   "framework": "vite",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "nodeVersion": "18.x"
 }
