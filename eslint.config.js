@@ -19,7 +19,7 @@ export default [
       },
     },
     settings: {
-      react: { version: '18.3' },
+      react: { version: '24.11.1' },
       'import/resolver': {
         alias: {
           map: [['@', './src']], // @ -> ./src
