@@ -1,17 +1,9 @@
-# Ignore ESLint config files
+# .vercelignore
 eslint.config.js
 .eslintrc.js
 .eslintrc.json
 .eslintignore
-
-# Ignore test files
-**/*.test.js
-**/*.spec.js
-
-# Ignore development files
-.env.local
-.env.development
-.env.test
-
-# Optional: Ignore linting output
-eslint-output.log
+node_modules
+*.log
+.DS_Store
+.cache
