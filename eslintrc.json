@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "react/prop-types": "off",
+    "react/no-unknown-property": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-key": "warn",
+    "no-unused-vars": "warn",
+    "no-undef": "error",
+    "import/no-unresolved": "off"
+  }
+}
